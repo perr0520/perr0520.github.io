@@ -13,7 +13,7 @@ div#top-level .read-more p.yellow.content,
     color: red;
 }
 
-body section.main-wrapper #primary article.doorknob article > p { /* 0,1,2,4 */
+body section.main-wrapper #primary article.doorknob article > p { /* 0,1,2,5 */
     color: orange; 
 }
 
@@ -39,6 +39,7 @@ body h1 { /* 0,0,0,2 */
 /* link visted hover active*/
 a:link {
     color: red;
+    text-decoration: none;
 }
 
 a:visited {
@@ -57,3 +58,6 @@ a[href="http://algonquincollege.com"] {
     color: green;
 }
 
+li:nth-child(odd) {
+    background-color: turquoise;
+}
