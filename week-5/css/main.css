@@ -1,24 +1,38 @@
-body {
+body { /* 0,0,0,1 */
     color: blue;
 }
 
 /* change color of all paragraphs and list items */
-p, li {
+p, 
+li {
     color: green;
 }
 
+div#top-level .read-more p.yellow.content, 
+.content-heading { /* 0,1,2,2 */
+    color: red;
+}
+
+body section.main-wrapper #primary article.doorknob article > p { /* 0,1,2,4 */
+    color: orange; 
+}
+
 /* target child ellements */
-section h1 {
+section h1 { /* 0,0,0,2 */
     color: darkred;
 }
 
+body h1 { /* 0,0,0,2 */
+    color: orange;
+}
+
 /* style class */
-.secondary-heading {
+.secondary-heading { /* 0,0,1,0 */
     color: purple;
 }
 
 /* style an id*/
-#main-section {
+#main-section { /* 0,1,0,0 */
     color: pink;
     font-weight: bold;
 }
