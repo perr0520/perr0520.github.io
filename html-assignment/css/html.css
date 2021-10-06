@@ -41,8 +41,10 @@ a:active {
 
 a[href="notes.html"] {
     text-decoration: none;
+    border-style:solid;
 }
 
 a[href="index.html"]{
     text-decoration: none;
+    border-style:solid;
 }
