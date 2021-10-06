@@ -1,4 +1,12 @@
 .information {
     font: size 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2, footer {
+    color:deepskyblue;
+}
+
+.site-title {
+    color:indigo;
 }
