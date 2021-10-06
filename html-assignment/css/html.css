@@ -22,3 +22,27 @@ li:nth-child(odd) {
 ul {
     list-style: square;
 }
+
+a:link {
+    background-color:rgb(242, 172, 255);
+}
+
+a:visited {
+    background-color:rgb(72, 137, 221);
+}
+
+a:hover {
+    background-color:rgb(204, 174, 240);
+}
+
+a:active {
+    background-color:rgb(112, 160, 207);
+}
+
+a[href="notes.html"] {
+    text-decoration: none;
+}
+
+a[href="index.html"]{
+    text-decoration: none;
+}
