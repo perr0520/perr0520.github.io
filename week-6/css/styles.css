@@ -1,9 +1,25 @@
+html {
+    font-size: 16px;
+}
+
+/* left to right(x), top to bottom(y)*/
 body {
     font-family: verdana, arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #eee;
     background-image: url("../images/white_brick_wall.png");
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/* (rem)= root element */
+p {
+    font-size: 1rem;
 }
 
 .bolded {
