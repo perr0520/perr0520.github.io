@@ -11,6 +11,26 @@ header {
 .lone {
     position: absolute;
     top: 210px;
-    right: 328px;
+    right: 320px;
     color: white;
+    font-size: 40px;
+}
+/* life of a starfish h2 positioned correctly 
+.life {
+    position: absolute;
+    padding: none;
+    border: 10px;
+    margin: 10px;
+}*/
+
+
+/* Image of close up starfish moved to correct position */
+#lone-starfish {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    border: 10px;
+    padding-right: 10px;
+    margin: none;
+    float: left;
 }
