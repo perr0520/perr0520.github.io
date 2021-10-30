@@ -1,3 +1,16 @@
 body {
     background-color: #aad4cf;
 }
+
+/* Starfish wide picture */
+header {
+    position: relative;
+}
+
+/* Lone Starfish Text */
+.lone {
+    position: absolute;
+    top: 210px;
+    right: 328px;
+    color: white;
+}
