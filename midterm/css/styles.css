@@ -1,8 +1,18 @@
 body {
     background-color: #aad4cf;
     padding: 100px;
+    padding-top: 0px;
     border: 100px;
+    border-top: 0px;
     margin: 100px;
+    margin-top: 0px;
+}
+
+.background {
+    background-color: #D4E9E7;
+    position: relative;
+    width: 1500px;
+    height: 1500px;
 }
 
 /* Starfish wide picture */
@@ -10,44 +20,59 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 0;
+    width: 1500px;
 }
 
 /* Lone Starfish Text */
 .h1 {
     position: absolute;
-    top: 210px;
-    right: 290px;
+    top: 320px;
+    right: 615px;
     color: white;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Life of a starfish header */
-h2 {
+.life {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-left: 15px;
+    margin-top: 120px;
 }
-
+/* paragraph with the life of a starfish */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
 /* Image of close up starfish moved to correct position */
 #lone-starfish {
-    position: relative;
     width: 150px;
     height: 150px;
     padding-right: 10px;
+    padding-left: 15px;
     margin-bottom: 10px;
     float: left;
 }
 
 /* facts about starfish header */
 .facts {
-    position: relative;
-    top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+/* unordered list */
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* contact to learn more header */
 h3 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
 }
 
 /* style for contact information */
@@ -59,38 +84,42 @@ h3 {
 
 .name {
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     padding: 10px;
     border-style: none;
-    border-color: none;
 }
 
 .email {
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     padding: 10px;
     border-style: none;
-    border-color: none;
 }
 
 .message {
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     padding: 10px;
     border-style: none;
-    border-color: none;
 }
 h4 {
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     margin-left: 10px;
-    border-color: none;
+    border-style: none;
 }
 .question {
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
     padding: 10px;
     border-style: none;
-    border-color: none;
 }
