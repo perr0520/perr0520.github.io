@@ -15,14 +15,6 @@ header {
     color: white;
     font-size: 40px;
 }
-/* life of a starfish h2 positioned correctly 
-.life {
-    position: absolute;
-    padding: none;
-    border: 10px;
-    margin: 10px;
-}*/
-
 
 /* Image of close up starfish moved to correct position */
 #lone-starfish {
@@ -33,4 +25,31 @@ header {
     padding-right: 10px;
     margin: none;
     float: left;
+}
+
+/* style for contact information */
+.contact {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.name {
+    display: block;
+    margin-bottom: 20px
+}
+
+.email {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.message {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.question {
+    display: block;
+    margin-bottom: 20px;
 }
