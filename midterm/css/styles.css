@@ -11,7 +11,7 @@ body {
     background-color: #D4E9E7;
     position: relative;
     width: 1500px;
-    height: 1550px;
+    height: 1650px;
 }
 
 /* Starfish wide picture */
@@ -118,6 +118,14 @@ h3 {
     border-color: black;
     border-width: 2px;
 }
+/* text box sizes */
+input[type=text] {
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+}
 
 .name {
     display: block;
@@ -126,6 +134,10 @@ h3 {
     margin-bottom: 20px;
     padding: 10px;
     border-style: none;
+}
+/* adds text above name text block */
+.name1 {
+    display: block;
 }
 
 .email {
@@ -136,15 +148,24 @@ h3 {
     padding: 10px;
     border-style: none;
 }
+/* adds text above email text block */
+.email1 {
+    display: block;
+}
 
 .message {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 10px;
     border-style: none;
 }
+
+.message1 {
+    display: block;
+}
+
 h4 {
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -152,6 +173,7 @@ h4 {
     margin-left: 10px;
     border-style: none;
 }
+
 .question {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
