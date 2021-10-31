@@ -1,11 +1,10 @@
 body {
     background-color: #aad4cf;
-    padding: 100px;
     padding-top: 0px;
-    border: 100px;
     border-top: 0px;
-    margin: 100px;
     margin-top: 0px;
+    max-width: fit-content;
+    margin: auto
 }
 /* background box with light blue colour */
 .background {
@@ -160,4 +159,11 @@ h4 {
     margin-bottom: 20px;
     padding: 10px;
     border-style: none;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    float: right;
+    padding-top: 10px;
 }
