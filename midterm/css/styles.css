@@ -5,15 +5,22 @@ body {
 /* Starfish wide picture */
 header {
     position: relative;
+
 }
 
 /* Lone Starfish Text */
-.lone {
+.h1 {
     position: absolute;
     top: 210px;
-    right: 320px;
+    right: 290px;
     color: white;
     font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Life of a starfish header */
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Image of close up starfish moved to correct position */
@@ -26,9 +33,14 @@ header {
     margin: none;
     float: left;
 }
+/* contact to learn more header */
+h3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* style for contact information */
-.contact {
+.contact2 {
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -36,20 +48,29 @@ header {
 
 .name {
     display: block;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .email {
     display: block;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .message {
     display: block;
     margin-bottom: 20px;
+    padding: 10px;
 }
-
+h4 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-left: 10px;
+}
 .question {
     display: block;
     margin-bottom: 20px;
+    padding: 10px;
 }
