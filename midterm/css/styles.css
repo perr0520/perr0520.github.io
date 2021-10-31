@@ -1,11 +1,16 @@
 body {
     background-color: #aad4cf;
+    padding: 100px;
+    border: 100px;
+    margin: 100px;
 }
 
 /* Starfish wide picture */
-header {
-    position: relative;
-
+#lone-starfish-wide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 /* Lone Starfish Text */
@@ -26,13 +31,19 @@ h2 {
 /* Image of close up starfish moved to correct position */
 #lone-starfish {
     position: relative;
-    width: 170px;
-    height: 170px;
-    border: 10px;
+    width: 150px;
+    height: 150px;
     padding-right: 10px;
-    margin: none;
+    margin-bottom: 10px;
     float: left;
 }
+
+/* facts about starfish header */
+.facts {
+    position: relative;
+    top: 10px;
+}
+
 /* contact to learn more header */
 h3 {
     font-size: 20px;
