@@ -61,18 +61,21 @@ h3 {
     display: block;
     margin-bottom: 20px;
     padding: 10px;
+    border-style: none;
 }
 
 .email {
     display: block;
     margin-bottom: 20px;
     padding: 10px;
+    border-style: none;
 }
 
 .message {
     display: block;
     margin-bottom: 20px;
     padding: 10px;
+    border-style: none;
 }
 h4 {
     font-size: 15px;
@@ -84,4 +87,5 @@ h4 {
     display: block;
     margin-bottom: 20px;
     padding: 10px;
+    border-style: none;
 }
