@@ -7,12 +7,12 @@ body {
     margin: 100px;
     margin-top: 0px;
 }
-
+/* background box with light blue colour */
 .background {
     background-color: #D4E9E7;
     position: relative;
     width: 1500px;
-    height: 1500px;
+    height: 1550px;
 }
 
 /* Starfish wide picture */
@@ -28,10 +28,48 @@ body {
 .h1 {
     position: absolute;
     top: 320px;
-    right: 615px;
+    right: 535px;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* navigation tabs below header */
+.home {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-left: 183px;
+    padding-right: 190px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.story {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-left: 183px;
+    padding-right: 190px;
+}
+
+.contact {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-left: 190px;
+    padding-right: 170px;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* navigation links below header */
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 /* Life of a starfish header */
