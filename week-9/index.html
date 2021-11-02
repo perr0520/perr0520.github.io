@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Responsive Demo</title>
+
+    <style>
+        /* CSS Here */
+        
+        body {
+            background-color: pink;
+            padding: 0; margin: 0;
+            font-size: 1.5rem;
+        }
+
+        h1,h2,h3,h4,h5,h6,p {
+            margin: 0;
+        }
+
+        header, main, footer {
+            width: 100%;
+            margin: 0 auto;
+            background: white;
+        }
+
+        header {
+            background: blue;
+            color: white;
+        }
+
+        .container {
+            width: auto;
+            padding: 40px;
+            margin: 0 auto;
+        }
+
+        /* tablet width aprox 600-1000px */
+
+        @media screen and (min-width: 600px) and (max-width: 999px) {
+
+            body {
+                font-size: 2.5rem;;
+            }
+
+            header {
+                background: green;
+            }
+
+            .container {
+                width: 500px;
+            }
+        }
+        /* desktop */
+        @media screen and (min-width: 1000px) {
+
+            body {
+                font-size: 3.5rem;;
+            }
+
+            header {
+                background-color: red;
+            }
+
+            .container {
+                width: 900px;
+            }
+        }
+    
+    
+    </style>
+
+</head>
+<body>
+    
+        <header>
+            <div class="container">
+                <h1>Header</h1>
+            </div>
+        </header>
+            <main>
+                <div class="container">
+                    <p>Lorem ipsum dolar sit...LoremLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem </p>
+                </div>
+            </main>
+        <footer>
+            &copy; Algonquin College
+        </footer>
+
+</body>
+</html>
