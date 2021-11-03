@@ -26,6 +26,7 @@ li {
 }
 
 @media screen and (min-width: 480px) and (max-width: 799px) {
+    /* small screen size */
 
     h1 {
         color: red;
@@ -41,6 +42,7 @@ li {
 }
 
 @media screen and (min-width: 800px) and (max-width: 899px) {
+    /* medium screen size */
 
     h1 {
         color: blue;
@@ -68,6 +70,7 @@ li {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
+    /* large screen size */
 
     h1 {
         color: black;
@@ -96,7 +99,8 @@ li {
 }
 
 @media screen and (min-width: 1200px) {
-
+    /* extra large screen size */
+    
     h1 {
         color: purple;
         font-size: 6rem;
