@@ -1,55 +1,111 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+  #main-banner {
+    position: relative;
+    width: 350px;
   }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
+
+  .navb {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    position: relative;
   }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+
+.orangeb {
+    background-color: #C68D00;
+    width: 315px;
+    height: 150px;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    position: absolute;
   }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
-  
-  .topnav .search-container {
-    float: right;
-  }
-  
-  .topnav input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-  }
-  
-  .topnav .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .topnav .search-container button:hover {
-    background: #ccc;
-  }
+
+.home {
+  position: absolute;
+  top: 140px;
+  left: 155px;
+}
+
+.about-us {
+  position: absolute;
+  top: 170px;
+  left: 143px;
+}
+
+.services {
+  position: absolute;
+  top: 200px;
+  left: 147px;
+}
+
+.team {
+  position: absolute;
+  top: 230px;
+  left: 156px;
+}
+
+.contact {
+  position: absolute;
+  top: 260px;
+  left: 149px;
+}
+
+.menu input[type=text] {
+  position: relative;
+  bottom: 300px;
+  left: 80px
+}
+
+.welcome {
+  background-color: black;
+  opacity: 30%;
+  height: 220px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 9px;
+  right: 40px;
+  bottom: 200px;
+  text-align: center;
+}
+
+
+h1 {
+  position: absolute;
+  top: 370px;
+  color: white;
+}
+
+.hp {
+  position: absolute;
+  top: 450px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* .connectb {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+
+#about-us {
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+}

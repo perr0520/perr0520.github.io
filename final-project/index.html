@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,61 +9,71 @@
     <link rel="button" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Navigation Bar and Header -->
 <header>
-            <img src="images/main-banner.jpg" alt="main-banner" id="main-banner"/>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#Team">Team</a>
-        <a href="#contact">Contact</a>
-        <div class="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-        </div>
-      </div>  
-</header>
-
-
+    <div class="navb"></div>
+    <div class="orangeb">
+        <img src="images/logo.png" alt="logo" id="logo"/>
+    </div>
+    <img src="images/main-banner.jpg" alt="main-banner" id="main-banner"/>
+    <nav class="menu">
+        <div class="home"><a href="#home">Home</a></div>
+        <div class="about-us"><a href="#about-us">About-Us</a></div>
+        <div class="services"><a href="#services">Services</a></div>
+        <div class="team"><a href="#team">Team</a></div>
+        <div class="contact"><a href="#contact">Contact</a></div>
+        <input type="text" placeholder="Search..">
+    </nav>
+    <div class="welcome"></div>
     <h1>Welcome to Three Star Media</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab officiis vel molestias. Iusto, quo natus ut recusandae laborum dolor culpa non cum at porro quis molestias harum, esse, vitae autem.</p>
-            <button type="button">Connect with us</button>
+        <p class="hp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab officiis vel molestias. Iusto, quo natus ut recusandae laborum dolor culpa non cum at porro quis molestias harum, esse, vitae autem.</p>
+                <button type="button">Connect with us</button>
+
+</header>    
     
+
+<main>        
+        <!-- SERVICES -->
+    <section class="section-about">
     <h3>About Us</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis neque ratione sunt exercitationem modi eaque, at repellat error esse aperiam unde officia. Tempora tempore voluptates, minus adipisci accusantium harum exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magnam. Rerum amet corporis itaque esse, repellat reiciendis, dolorem suscipit blanditiis nam ratione, atque dignissimos illum a? Deserunt veniam omnis necessitatibus?</p>
             <img src="images/about-us.jpg" alt="about-us" id="about-us"/>
     
     <h3>Our Services</h3>
-    <h4>Digital Transformation</h4>
+    
+    <section class="section-digital">Digital Transformation</section>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit ut adipisci obcaecati corporis a? Velit, voluptate, iure totam beatae voluptates enim qui amet repudiandae expedita iste perferendis exercitationem eveniet inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora omnis quae perspiciatis labore, sequi, minus ea autem cumque sapiente itaque vero, laboriosam iure doloribus facere quibusdam nihil quisquam. Repudiandae, similique.</p>
             <img src="images/digital.jpg" alt="digital" id="digital"/>
                 <button type="button">Digital Plans</button>
-    <h4>Marketing</h4>
+    
+    <section class="section-marketing">Marketing</section>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, quaerat. Nulla neque doloremque nisi necessitatibus, excepturi distinctio consequatur non a error? Expedita magnam ullam adipisci odit id? Minima, consequatur dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit numquam nam beatae minus? Exercitationem possimus repellat dolores ab ullam est amet perspiciatis, deleniti laboriosam illum aliquid laborum praesentium pariatur beatae.</p>
             <img src="images/marketing.jpg" alt="marketing" id="marketing"/>
                 <button type="button">Marketing Plans</button>
-    <h4>Video Production</H4>
+    
+    <section calss="section-video">Video Production</section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, a optio praesentium cupiditate culpa dolorum pariatur, cumque enim molestias blanditiis vero delectus non! Odio dolorem nam consequatur nobis consectetur quia.</p>
             <img src="images/video.jpg" alt="video" id="video"/>
                 <button type="button">Video Plans</button>
-    <h4>Web Development</h4>
+    
+    <section class="section-development">Web Development</section>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae rerum voluptatibus qui, earum reprehenderit sint vitae? Nemo modi debitis quod sequi officia porro. Ducimus ex perferendis dolor dolorum maiores laudantium?</p>
             <img src="images/web.jpg" alt="web" id="web"/>
                 <button type="button">Web Plans</button>
-    <h4>Print</h4>
+    
+    <section class="section-print">Print</section>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cumque blanditiis id, libero natus assumenda autem enim doloribus explicabo sunt, atque laudantium dolorum maiores temporibus molestias. Quia assumenda animi nesciunt.</p>
             <img src="images/print.jpg" alt="print" id="print"/>
                 <button type="button">Print Plans</button>
     
-    <h4>Our Vision</h4>
+    
+    <section class="section-vision">Our Vision</section>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consectetur alias excepturi autem maiores repellendus nobis totam quibusdam ducimus minus. Laudantium aut quis ipsam ducimus est magni a blanditiis reiciendis?</p>
             <img src="images/vision.jpg" alt="vision" id="vision"/>
                 <button type="button">Learn More</button>
     
+    <!-- Our Team Description -->
     <h3>Our Team</h3>    
-    
     <h4>John Doe</h4>
         <h5>CEO and Co-Owner</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptates consectetur ut nemo facere perferendis non minus aspernatur. Libero harum culpa quas accusamus eaque ex et officia, placeat voluptatibus nihil.</p>
@@ -73,7 +83,11 @@
         <h5>CFO and Co-Owner</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, incidunt modi. Amet, eaque quasi iure, modi autem unde delectus impedit dolores, dolorem sint repellat alias in ex dolor quis aut.</p>
             <img src="images/bob.jpg" alt="bob" id="bob"/>
-
+</section>
+<!-- End Section About Our Services -->
+</main>
+<footer>    
+    <!--Contact Information--> 
     <h3>Contact Us</h3>
 
     <h4>Location</h4>
@@ -115,6 +129,6 @@
           <td>Closed</td>
         </tr>
       </table>
-
+</footer>
 </body>
 </html>
