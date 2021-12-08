@@ -1,19 +1,20 @@
 @media screen and (min-width: 400px) and (max-width: 1000px) {
   #main-banner {
     position: relative;
-    width: 350px;
+    width: 400px;
   }
 
   .navb {
     background-color: black;
-    width: 350px;
+    width: 400px;
     height: 350px;
     position: relative;
   }
 
 .orangeb {
     background-color: #C68D00;
-    width: 315px;
+    margin: 10px;
+    width: 355px;
     height: 150px;
     top: 20px;
     left: 20px;
@@ -23,43 +24,44 @@
 
 .home {
   position: absolute;
-  top: 140px;
-  left: 155px;
+  top: 150px;
+  left: 185px;
 }
 
 .about-us {
   position: absolute;
-  top: 170px;
-  left: 143px;
+  top: 180px;
+  left: 173px;
 }
 
 .services {
   position: absolute;
-  top: 200px;
-  left: 147px;
+  top: 210px;
+  left: 177px;
 }
 
 .team {
   position: absolute;
-  top: 230px;
-  left: 156px;
+  top: 240px;
+  left: 186px;
 }
 
 .contact {
   position: absolute;
-  top: 260px;
-  left: 149px;
+  top: 270px;
+  left: 179px;
 }
 
 .menu input[type=text] {
   position: relative;
-  bottom: 300px;
-  left: 80px
+  bottom: 330px;
+  left: 112px
 }
 
 .welcome {
   background-color: black;
-  opacity: 30%;
+  opacity: 50%;
+  width: 400px;
   height: 220px;
   position: absolute;
   margin-left: auto;
@@ -67,7 +69,6 @@
   left: 9px;
   right: 40px;
   bottom: 200px;
-  text-align: center;
 }
 
 
@@ -75,6 +76,7 @@ h1 {
   position: absolute;
   top: 370px;
   color: white;
+  text-align: center;
 }
 
 .hp {
@@ -84,6 +86,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   text-align: left;
+  margin: 10px;
 }
 
 /* .connectb {
@@ -98,9 +101,38 @@ h1 {
 } */
 
 #about-us {
-  width: 400px;
+  width: 380px;
+  margin: 10px;
 }
 
+.about {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  top: 658px;
+  background-color: wheat;
+}
+
+h4 {
+  position: relative;
+  left: 10px;
+  bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+}
+
+.p1 {
+  position: relative;
+  bottom: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.h3services {
+  position: absolute;
+}
 
 
 
