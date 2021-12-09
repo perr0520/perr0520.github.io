@@ -134,8 +134,110 @@ h4 {
   position: absolute;
 }
 
+.digital {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  top: 1000px;
+  background-color: wheat;
+}
+
+.marketing {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  top: 1300px;
+  background-color: wheat;
+ 
+}
+
+.video {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  top: 1600px;
+  background-color: wheat;
+}
+
+.development {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  top: 1900px;
+  background-color: wheat;
+}
+
+.print {
+  position: absolute;
+  width: 400px;
+  height: 350px;
+  top: 2200px;
+  background-color: wheat;
+}
+
+#vision {
+  width: 400px;
+  position: absolute;
+  top: 2700px;
+}
+
+.h4john{
+  position: absolute;
+  top: 2930px;
+}
 
 
+#john {
+  position: absolute;
+  width: 400px;
+  top: 3000px; 
+}
+
+
+.h4bob {
+  position: absolute;
+  top: 3230px;
+}
+
+
+#bob {
+  position: absolute;
+  width: 400px;
+  top: 3300px;
+}
+/* semd us a message header */
+.h4message {
+  position: absolute;
+  top: 3530px;
+}
+
+/* contact information table */
+.contact2 {
+  position: absolute;
+  top: 3600px;
+}
+
+/* Header for Hours of operation */
+.h4operation {
+  position: absolute;
+  top: 3700px;
+}
+/* hours of operation table */
+.table {
+  position: absolute;
+  top: 3800px;
+}
+/* Google Maps Header */
+.h4location {
+  position: absolute;
+  top: 3900px;
+}
+
+/* Google Map */
+iframe {
+  position: absolute;
+  top: 4000px; 
+}
 
 
 
