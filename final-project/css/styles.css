@@ -104,7 +104,7 @@ h1 {
   width: 380px;
   margin: 10px;
 }
-
+/* about us section */
 .about {
   position: absolute;
   width: 400px;
@@ -130,113 +130,401 @@ h4 {
   margin: 10px;
 }
 
-.h3services {
+.h3service {
   position: absolute;
+  top: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+}
+/* Digital Transformation */
+#digital {
+  width: 400px;
+  top: 0px;
 }
 
 .digital {
   position: absolute;
   width: 400px;
-  height: 350px;
-  top: 1000px;
+  height: 400px;
+  top: 1065px;
   background-color: wheat;
+}
+
+.h4digital {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  top: 245px;
+}
+
+.p2 {
+  position: relative;
+  top: 28px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+/* ^^^ Digital Transformation ^^^ */
+
+/* Marketing section */
+#marketing {
+  position: absolute;
+  width: 400px;
+  top: 0px;
 }
 
 .marketing {
   position: absolute;
   width: 400px;
-  height: 350px;
-  top: 1300px;
+  height: 400px;
+  top: 1485px;
   background-color: wheat;
- 
+}
+
+.h4marketing {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 250px;
+}
+
+.p3 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+/* ^^^Marketing Section^^^ */
+
+/* Video Production */
+#video {
+  position: absolute;
+  width: 400px;
+  top: 0px;
 }
 
 .video {
   position: absolute;
   width: 400px;
-  height: 350px;
-  top: 1600px;
+  height: 400px;
+  top: 1905px;
   background-color: wheat;
+}
+
+.h4video {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 70px;
+}
+
+.p4 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+/* ^^^Video Production^^^ */
+/* Web Devolpment */
+#web {
+  position: absolute;
+  width: 400px;
+  top: 0px;
 }
 
 .development {
   position: absolute;
   width: 400px;
-  height: 350px;
-  top: 1900px;
+  height: 400px;
+  top: 2325px;
   background-color: wheat;
+}
+
+.h4development {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 70px;
+}
+
+.p5 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+/* ^^^Web Development^^^ */
+
+/* Print */
+#print {
+  position: absolute;
+  width: 400px;
+  top: 0px;
 }
 
 .print {
   position: absolute;
   width: 400px;
-  height: 350px;
-  top: 2200px;
+  height: 400px;
+  top: 2745px;
   background-color: wheat;
 }
 
+.h4print{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 70px;
+}
+
+.p6 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+/* ^^^Print^^^ */
+/* Our Vision */
 #vision {
   width: 400px;
-  position: absolute;
-  top: 2700px;
+  height: 200px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
 }
 
+.vision {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 3150px;
+}
+
+.h4vision {
+  position: absolute;
+  top: 25px;
+  color: white;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.p7 {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  word-spacing: 2px;
+  top: 70px;
+  color: white;
+  margin: 10px;
+  z-index: 3;
+}
+
+/* ^^^Our Vision^^^ */
+
+/* Our Team Header */
+.ourteam {
+  position: absolute;
+  top: 3370px;
+  font-size: 29px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* John Doe */
 .h4john{
   position: absolute;
-  top: 2930px;
+  top: 240px;
+  z-index: 5;
 }
 
+.h5ceo {
+  position: absolute;
+  top: 285px;
+  left: 14px;
+  z-index: 4;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.johnp {
+  position: absolute;
+  top: 320px;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 10px;
+  border-top: 2px solid orange;
+}
+
+.johndoe {
+  position: absolute;
+  width: 400px;
+  height: 405px;
+  top: 3450px;
+  background-color: wheat;
+  z-index: 1;
+}
 
 #john {
   position: absolute;
   width: 400px;
-  top: 3000px; 
+  top: 0px;
+  z-index: 2; 
 }
 
+/* ^^^John Doe^^^ */
 
+/* Bob Rite */
 .h4bob {
   position: absolute;
-  top: 3230px;
+  top: 240px;
+  z-index: 5;
 }
 
+.h5cfo {
+  position: absolute;
+  top: 285px;
+  left: 14px;
+  z-index: 4;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.bobp {
+  position: absolute;
+  top: 320px;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 10px;
+  border-top: 2px solid orange;
+}
+
+.bobrite {
+  position: absolute;
+  width: 400px;
+  height: 405px;
+  top: 3880px;
+  background-color: wheat;
+  z-index: 1;
+}
 
 #bob {
   position: absolute;
   width: 400px;
-  top: 3300px;
-}
-/* semd us a message header */
-.h4message {
-  position: absolute;
-  top: 3530px;
+  top: 0px;
+  z-index: 2;
 }
 
+/* ^^^Bob Rite^^^ */
+
+/* Contact Us Header */
+.h3contact {
+  position: absolute;
+  top: 4550px;
+  font-size: 26px;
+}
+
+
+/* send us a message header */
+.h4message {
+  position: absolute;
+  top: 4350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  left: 10px;
+}
+
+/* Contact Us Header */
+.h3contact {
+  position: absolute;
+  top: 4300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  left: 10px;
+}
 /* contact information table */
 .contact2 {
   position: absolute;
-  top: 3600px;
+  top: 4400px;
+  right: 235px;
 }
+/* Message, Email, Name table */
+.name {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+.name1 {
+  display: block;
+}
+
+.email {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+.email1 {
+  display: block;
+}
+
+.message {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+  border-style: none;
+}
+
+.message1 {
+  display: block;
+}
+/* ^^^ Name, Email, Message table^^^ */
 
 /* Header for Hours of operation */
 .h4operation {
   position: absolute;
-  top: 3700px;
+  top: 4615px;
 }
 /* hours of operation table */
 .table {
   position: absolute;
-  top: 3800px;
+  top: 4690px;
 }
 /* Google Maps Header */
 .h4location {
   position: absolute;
-  top: 3900px;
+  top: 4750px;
 }
 
 /* Google Map */
 iframe {
   position: absolute;
-  top: 4000px; 
+  top: 4830px; 
 }
 
 
