@@ -11,6 +11,14 @@
     position: relative;
   }
 
+#logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 30px;
+  top: 30px;
+}
+
 .orangeb {
     background-color: #C68D00;
     margin: 10px;
@@ -91,11 +99,11 @@
   background-color: black;
   opacity: 50%;
   width: 400px;
-  height: 220px;
+  height: 250px;
   position: absolute;
   left: 9px;
   right: 40px;
-  bottom: 190px;
+  top: 375px;
 }
 
 .button1 {
@@ -158,7 +166,7 @@ h1 {
   background-color: wheat;
 }
 
-h4 {
+.about4 {
   position: relative;
   left: 10px;
   bottom: 40px;
@@ -290,7 +298,7 @@ h4 {
 	border-top: 6px solid transparent;
 	border-left: 12px solid white;
 	border-bottom: 6px solid transparent;
-  left: 147px;
+  left: 150px;
   top: 365px;
 }
 
@@ -512,7 +520,7 @@ h4 {
   padding: 15px 25px;
   opacity: 70%;
   color: white;
-  text-align: centers;
+  text-align: center;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -779,7 +787,206 @@ th {
 /* Google Map */
 iframe {
   position: absolute;
-  top: 4900px; 
+  top: 4900px;
+  width: 400px;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+/* Navigation Bar */
+.menu {
+  position: absolute;
+  background-color: black;
+  top: 0px;
+  width: 1400px;
+  height: 140px;
+  left: 252px;
+}
+
+/* magnifying glass and Search Bar*/
+#magnifying-glass {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid orange;
+  left: 1190px;
+  top: 60px;
+}
+
+.menu input[type=text] {
+  position: relative;
+  width: 200px;
+  left: 980px;
+  top: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+/* ^^^ Magnifying Glass and Search Bar ^^^ */
+
+/* Main image and Logo */
+#main-banner {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  height: 1000px;
+}
+
+#logo {
+  position: absolute;
+  left: 400px;
+  width: 75px;
+  top: 35px;
+  z-index: 1;
+}
+/*^^^ Main Image and Logo ^^^*/
+
+/* Navigation Links */
+.orangeb {
+  position: relative;
+  background-color: orange;
+  left: 530px;
+  top: 40px;
+  width: 110px;
+  height: 50px;
+  z-index: 1;
+}
+
+.home a {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  left: 317px;
+  top: 62px;
+  z-index: 2;
+}
+
+.about-us a:link {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+  left: 450px;
+  top: 62px;
+}
+
+.services a:link {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+  left: 583px;
+  top: 62px;
+}
+
+.team a:link {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+  left: 716px;
+  top: 62px;
+}
+
+.contact a:link {
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+  left: 839px;
+  top: 62px;
+}
+/* ^^^ Navigation Links ^^^ */
+
+/* Welcome To the Three Star Media header and box */
+
+.welcome {
+  background-color: black;
+  opacity: 65%;
+  width: 1100px;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  left: 420px;
+}
+
+h1 {
+  position: absolute;
+  top: 270px;
+  color: white;
+  text-align: center;
+  font-size: 67px;
+  left: 535px;
+}
+
+.hp {
+  position: absolute;
+  top: 460px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  left: 505px;
+  text-align: left;
+  margin: 10px;
+  line-height: 30px;
+}
+
+.button1 {
+  position: absolute;
+  top: 560px;
+  left: 530px;
+  background-color: orange;
+  border: none;
+  padding: 30px 50px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* ^^^  Welcome to Three Stars Media Header and Box ^^^ */
+
+#about-us {
+  position: absolute;
+  width: 550px;
+  margin: 10px;
+  left: 100px;
+}
+
+.about {
+  position: absolute;
+  width: 1400px;
+  height: 300px;
+  top: 1000px;
+  background-color: wheat;
+  left: 252px;
+}
+
+.about4 {
+  position: relative;
+  left: 700px;
+  bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 36px;
+}
+
+.p1 {
+  position: absolute;
+  left: 690px;
+  bottom: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+  word-wrap: break-word;
+  line-height: 30px;
 }
 
 
