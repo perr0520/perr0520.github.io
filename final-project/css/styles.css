@@ -953,18 +953,20 @@ h1 {
 }
 /* ^^^  Welcome to Three Stars Media Header and Box ^^^ */
 
+/* about us Section */
 #about-us {
   position: absolute;
   width: 550px;
   margin: 10px;
   left: 100px;
+  top: 30px;
 }
 
 .about {
   position: absolute;
   width: 1400px;
-  height: 300px;
-  top: 1000px;
+  height: 350px;
+  top: 850px;
   background-color: wheat;
   left: 252px;
 }
@@ -972,7 +974,7 @@ h1 {
 .about4 {
   position: relative;
   left: 700px;
-  bottom: 35px;
+  bottom: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 36px;
 }
@@ -980,7 +982,7 @@ h1 {
 .p1 {
   position: absolute;
   left: 690px;
-  bottom: 15px;
+  bottom: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -988,6 +990,613 @@ h1 {
   word-wrap: break-word;
   line-height: 30px;
 }
+/* ^^^ About Us Section ^^^ */
+
+/* Digital Transformation */
+#digital {
+  width: 400px;
+  top: 0px;
+}
+
+.digital {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1300px;
+  left: 500px;
+  background-color: wheat;
+}
+
+.h4digital {
+  position: absolute;
+  font-size: 23px;
+  font-weight: bold;
+  top: 245px;
+}
+
+.p2 {
+  position: relative;
+  top: 28px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.button2 {
+  position: absolute;
+  background-color: black;
+  top: 353px;
+  left: 10px;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.triangle2 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 125px;
+  top: 365px;
+}
+/*^^^ Digital transformation ^^^*/
+
+/* Marketing section */
+#marketing {
+  position: absolute;
+  width: 400px;
+  top: 0px;
+}
+
+.marketing {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1300px;
+  left: 1000px;
+  background-color: wheat;
+}
+
+.h4marketing {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 250px;
+}
+
+.p3 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.button3 {
+  position: absolute;
+  background-color: black;
+  top: 353px;
+  left: 10px;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.triangle3 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 150px;
+  top: 365px;
+}
+
+/* ^^^Marketing Section^^^ */
+
+/* Video Production */
+#video {
+  position: absolute;
+  width: 400px;
+  top: 0px;
+}
+
+.video {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 1905px;
+  background-color: wheat;
+}
+
+.h4video {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 70px;
+}
+
+.p4 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.button4 {
+  position: absolute;
+  top: 353px;
+  left: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.triangle4 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 120px;
+  top: 365px;
+}
+
+/* ^^^Video Production^^^ */
+
+/* Web Devolpment */
+#web {
+  position: absolute;
+  width: 400px;
+  top: 0px;
+}
+
+.development {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 2325px;
+  background-color: wheat;
+}
+
+.h4development {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 70px;
+}
+
+.p5 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.button5 {
+  position: absolute;
+  top: 353px;
+  left: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.triangle5 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 112px;
+  top: 365px;
+}
+
+/* ^^^Web Development^^^ */
+
+/* Print */
+#print {
+  position: absolute;
+  width: 400px;
+  top: 0px;
+}
+
+.print {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 2745px;
+  background-color: wheat;
+}
+
+.h4print{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 70px;
+}
+
+.p6 {
+  position: relative;
+  top: 295px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.button6 {
+  position: absolute;
+  top: 353px;
+  left: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.triangle6 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 115px;
+  top: 365px;
+}
+
+/* ^^^Print^^^ */
+
+/* Our Vision */
+#vision {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+
+.vision {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 3150px;
+}
+
+.h4vision {
+  position: absolute;
+  top: 25px;
+  color: white;
+  font-size: 16px;
+  z-index: 2;
+}
+
+.p7 {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  word-spacing: 2px;
+  top: 70px;
+  color: white;
+  margin: 10px;
+  z-index: 3;
+}
+
+.button7 {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  background-color: black;
+  border: 1px solid orange;
+  padding: 15px 25px;
+  opacity: 70%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 4
+}
+
+.triangle7 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 13px solid white;
+	border-bottom: 7px solid transparent;
+  left: 128px;
+  top: 148px;
+  z-index: 5;
+}
+
+/* ^^^Our Vision^^^ */
+
+/* Our Team Header */
+.ourteam {
+  position: absolute;
+  top: 3370px;
+  font-size: 29px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* John Doe */
+.h4john{
+  position: absolute;
+  top: 240px;
+  z-index: 5;
+}
+
+.h5ceo {
+  position: absolute;
+  top: 285px;
+  left: 14px;
+  z-index: 4;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.johnp {
+  position: absolute;
+  top: 320px;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 10px;
+  border-top: 2px solid orange;
+}
+
+.johndoe {
+  position: absolute;
+  width: 400px;
+  height: 405px;
+  top: 3450px;
+  background-color: wheat;
+  z-index: 1;
+}
+
+#john {
+  position: absolute;
+  width: 400px;
+  top: 0px;
+  z-index: 2; 
+}
+
+/* ^^^John Doe^^^ */
+
+/* Bob Rite */
+.h4bob {
+  position: absolute;
+  top: 240px;
+  z-index: 5;
+}
+
+.h5cfo {
+  position: absolute;
+  top: 285px;
+  left: 14px;
+  z-index: 4;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.bobp {
+  position: absolute;
+  top: 320px;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 10px;
+  border-top: 2px solid orange;
+}
+
+.bobrite {
+  position: absolute;
+  width: 400px;
+  height: 405px;
+  top: 3880px;
+  background-color: wheat;
+  z-index: 1;
+}
+
+#bob {
+  position: absolute;
+  width: 400px;
+  top: 0px;
+  z-index: 2;
+}
+
+/* ^^^Bob Rite^^^ */
+
+/* Contact Us Header */
+.h3contact {
+  position: absolute;
+  top: 4550px;
+  font-size: 26px;
+}
+
+
+/* send us a message header */
+.h4message {
+  position: absolute;
+  top: 4350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  left: 10px;
+}
+
+/* Contact Us Header */
+.h3contact {
+  position: absolute;
+  top: 4300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  left: 10px;
+}
+/* contact information table */
+.contact2 {
+  position: absolute;
+  top: 4400px;
+  right: 235px;
+  width: 400px;
+  height: 250px;
+  right: 15px;
+}
+/* Message, Email, Name table */
+.name {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-style: none;
+}
+
+/* Styling the Input Boxes */
+.contact2 input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+
+.messagebox {
+  width: 100%;
+}
+
+/* ^^^ Input Boxes ^^^ */
+.name1 {
+  display: block;
+}
+
+.email {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-style: none;
+}
+
+.email1 {
+  display: block;
+}
+
+.message {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+  border-style: none;
+}
+
+.message1 {
+  display: block;
+}
+/* ^^^ Name, Email, Message table^^^ */
+
+/* submit button for contact sheet */
+
+input[type="submit"] {
+  position: absolute;
+  top: 215px;
+  left: 15px;
+  background-color: black;
+  border: none;
+  padding: 5px 5px;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ^^^ Submit button for contact sheet ^^^ */
+
+/* Header for Hours of operation */
+.h4operation {
+  position: absolute;
+  top: 4615px;
+}
+
+/* hours of operation table */
+.table {
+  position: absolute;
+  top: 4690px;
+  border-spacing: 20px;
+}
+
+.table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 1px;
+}
+
+th {
+  background-color: wheat;
+}
+
+/* Google Maps Header */
+.h4location {
+  position: absolute;
+  top: 4800px;
+}
+
+/* Google Map */
+iframe {
+  position: absolute;
+  top: 4900px;
+  width: 400px;
+}
+
 
 
 }
