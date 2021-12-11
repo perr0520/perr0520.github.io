@@ -22,52 +22,77 @@
     position: absolute;
   }
 
-.home {
+/* Navigation Links */
+.home a {
   position: absolute;
-  top: 150px;
+  top: 145px;
   left: 185px;
+  text-decoration: none;
+  color: black
 }
 
-.about-us {
+.about-us a:link {
   position: absolute;
   top: 180px;
   left: 173px;
+  text-decoration: none;
+  color: orange;
 }
 
-.services {
+.services a:link {
   position: absolute;
-  top: 210px;
+  top: 215px;
   left: 177px;
+  text-decoration: none;
+  color: orange;
 }
 
-.team {
+.team a:link {
   position: absolute;
-  top: 240px;
+  top: 255px;
   left: 186px;
+  text-decoration: none;
+  color: orange;
 }
 
-.contact {
+.contact a:link {
   position: absolute;
-  top: 270px;
+  top: 290px;
   left: 179px;
+  text-decoration: none;
+  color: orange;
 }
-
-
+/* ^^^ top navigation links ^^^ */
+/* Search Bar and Magnifying glass */
+#magnifying-glass {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid orange;
+  right: 43px;
+  top: 320px;
+}
 
 .menu input[type=text] {
   position: relative;
-  bottom: 330px;
-  left: 112px
+  bottom: 350px;
+  left: 12px;
+  width: 79%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin: 10px;
 }
+/* ^^^ Search Bar and Magnifying Glass ^^^ */
 
+/* Welcome to Three Stars Media */
 .welcome {
   background-color: black;
   opacity: 50%;
   width: 400px;
   height: 220px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
   left: 9px;
   right: 40px;
   bottom: 190px;
@@ -106,22 +131,25 @@ h1 {
   margin: 10px;
 }
 
-/* .connectb {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-} */
+.triangle1 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 15px solid black;
+	border-bottom: 10px solid transparent;
+  left: 180px;
+  top: 559px;
+}
 
+/* ^^^ Welcome to Three Stars Media ^^^ */
+
+/* about us section */
 #about-us {
   width: 380px;
   margin: 10px;
 }
-/* about us section */
+
 .about {
   position: absolute;
   width: 400px;
@@ -189,12 +217,23 @@ h4 {
   top: 353px;
   left: 10px;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 25px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.triangle2 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 125px;
+  top: 365px;
 }
 
 /* ^^^ Digital Transformation ^^^ */
@@ -236,12 +275,23 @@ h4 {
   top: 353px;
   left: 10px;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 25px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.triangle3 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 147px;
+  top: 365px;
 }
 
 /* ^^^Marketing Section^^^ */
@@ -283,12 +333,23 @@ h4 {
   left: 10px;
   background-color: black;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 25px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.triangle4 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 120px;
+  top: 365px;
 }
 
 /* ^^^Video Production^^^ */
@@ -329,12 +390,23 @@ h4 {
   left: 10px;
   background-color: black;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 25px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.triangle5 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 112px;
+  top: 365px;
 }
 
 /* ^^^Web Development^^^ */
@@ -376,12 +448,23 @@ h4 {
   left: 10px;
   background-color: black;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 25px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.triangle6 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 12px solid white;
+	border-bottom: 6px solid transparent;
+  left: 115px;
+  top: 365px;
 }
 
 /* ^^^Print^^^ */
@@ -426,14 +509,26 @@ h4 {
   left: 10px;
   background-color: black;
   border: 1px solid orange;
-  padding: 15px 20px;
+  padding: 15px 25px;
   opacity: 70%;
   color: white;
-  text-align: center;
+  text-align: centers;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   z-index: 4
+}
+
+.triangle7 {
+  position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 13px solid white;
+	border-bottom: 7px solid transparent;
+  left: 128px;
+  top: 148px;
+  z-index: 5;
 }
 
 /* ^^^Our Vision^^^ */
@@ -627,6 +722,24 @@ h4 {
   display: block;
 }
 /* ^^^ Name, Email, Message table^^^ */
+
+/* submit button for contact sheet */
+
+input[type="submit"] {
+  position: absolute;
+  top: 215px;
+  left: 15px;
+  background-color: black;
+  border: none;
+  padding: 5px 5px;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ^^^ Submit button for contact sheet ^^^ */
 
 /* Header for Hours of operation */
 .h4operation {
