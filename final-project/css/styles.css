@@ -52,6 +52,8 @@
   left: 179px;
 }
 
+
+
 .menu input[type=text] {
   position: relative;
   bottom: 330px;
@@ -68,23 +70,38 @@
   margin-right: auto;
   left: 9px;
   right: 40px;
-  bottom: 200px;
+  bottom: 190px;
 }
 
+.button1 {
+  position: absolute;
+  top: 540px;
+  left: 20px;
+  background-color: orange;
+  border: none;
+  padding: 20px 30px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 h1 {
   position: absolute;
   top: 370px;
   color: white;
   text-align: center;
+  font-size: 35px;
 }
 
 .hp {
   position: absolute;
-  top: 450px;
+  top: 460px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
+  right: 10px;
   text-align: left;
   margin: 10px;
 }
@@ -165,6 +182,21 @@ h4 {
   font-size: 11px;
   margin: 10px;
 }
+
+.button2 {
+  position: absolute;
+  background-color: black;
+  top: 353px;
+  left: 10px;
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* ^^^ Digital Transformation ^^^ */
 
 /* Marketing section */
@@ -196,6 +228,20 @@ h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   margin: 10px;
+}
+
+.button3 {
+  position: absolute;
+  background-color: black;
+  top: 353px;
+  left: 10px;
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* ^^^Marketing Section^^^ */
@@ -231,6 +277,20 @@ h4 {
   margin: 10px;
 }
 
+.button4 {
+  position: absolute;
+  top: 353px;
+  left: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* ^^^Video Production^^^ */
 /* Web Devolpment */
 #web {
@@ -261,6 +321,20 @@ h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   margin: 10px;
+}
+
+.button5 {
+  position: absolute;
+  top: 353px;
+  left: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* ^^^Web Development^^^ */
@@ -294,6 +368,20 @@ h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 11px;
   margin: 10px;
+}
+
+.button6 {
+  position: absolute;
+  top: 353px;
+  left: 10px;
+  background-color: black;
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /* ^^^Print^^^ */
@@ -330,6 +418,22 @@ h4 {
   color: white;
   margin: 10px;
   z-index: 3;
+}
+
+.button7 {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  background-color: black;
+  border: 1px solid orange;
+  padding: 15px 20px;
+  opacity: 70%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 4
 }
 
 /* ^^^Our Vision^^^ */
@@ -466,16 +570,35 @@ h4 {
   position: absolute;
   top: 4400px;
   right: 235px;
+  width: 400px;
+  height: 250px;
+  right: 15px;
 }
 /* Message, Email, Name table */
 .name {
   display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   border-style: none;
 }
 
+/* Styling the Input Boxes */
+.contact2 input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  resize: vertical;
+}
+
+.messagebox {
+  width: 100%;
+}
+
+/* ^^^ Input Boxes ^^^ */
 .name1 {
   display: block;
 }
@@ -484,7 +607,7 @@ h4 {
   display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   border-style: none;
 }
 
@@ -510,24 +633,41 @@ h4 {
   position: absolute;
   top: 4615px;
 }
+
 /* hours of operation table */
 .table {
   position: absolute;
   top: 4690px;
+  border-spacing: 20px;
 }
+
+.table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 1px;
+}
+
+th {
+  background-color: wheat;
+}
+
 /* Google Maps Header */
 .h4location {
   position: absolute;
-  top: 4750px;
+  top: 4800px;
 }
 
 /* Google Map */
 iframe {
   position: absolute;
-  top: 4830px; 
+  top: 4900px; 
 }
-
-
 
 
 }
