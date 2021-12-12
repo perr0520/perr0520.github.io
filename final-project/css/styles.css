@@ -205,9 +205,11 @@ h1 {
 
 .h4digital {
   position: absolute;
-  font-size: 23px;
+  left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
   font-weight: bold;
-  top: 245px;
+  top: 250px;
 }
 
 .p2 {
@@ -263,6 +265,8 @@ h1 {
 
 .h4marketing {
   position: absolute;
+  left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: bold;
   top: 250px;
@@ -321,6 +325,8 @@ h1 {
 
 .h4video {
   position: absolute;
+  left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: bold;
   bottom: 70px;
@@ -378,6 +384,8 @@ h1 {
 
 .h4development {
   position: absolute;
+  left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: bold;
   bottom: 70px;
@@ -436,6 +444,8 @@ h1 {
 
 .h4print{
   position: absolute;
+  left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: bold;
   bottom: 70px;
@@ -495,7 +505,10 @@ h1 {
 .h4vision {
   position: absolute;
   top: 25px;
+  left: 10px;
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
   font-size: 16px;
   z-index: 2;
 }
