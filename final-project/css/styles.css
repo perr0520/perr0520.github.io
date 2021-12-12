@@ -5,7 +5,7 @@
   }
 
   .navb {
-    background-color: black;
+    background-color: #222;
     width: 400px;
     height: 350px;
     position: relative;
@@ -20,7 +20,7 @@
 }
 
 .orangeb {
-    background-color: #C68D00;
+    background-color: #c78c06;
     margin: 10px;
     width: 355px;
     height: 150px;
@@ -44,7 +44,7 @@
   top: 180px;
   left: 173px;
   text-decoration: none;
-  color: orange;
+  color: #c78c06;
 }
 
 .services a:link {
@@ -52,7 +52,7 @@
   top: 215px;
   left: 177px;
   text-decoration: none;
-  color: orange;
+  color: #c78c06;
 }
 
 .team a:link {
@@ -60,7 +60,7 @@
   top: 255px;
   left: 186px;
   text-decoration: none;
-  color: orange;
+  color: #c78c06;
 }
 
 .contact a:link {
@@ -68,7 +68,7 @@
   top: 290px;
   left: 179px;
   text-decoration: none;
-  color: orange;
+  color: #c78c06;
 }
 /* ^^^ top navigation links ^^^ */
 /* Search Bar and Magnifying glass */
@@ -76,7 +76,7 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border: 1px solid orange;
+  border: 1px solid #c78c06;
   right: 43px;
   top: 320px;
 }
@@ -110,7 +110,7 @@
   position: absolute;
   top: 540px;
   left: 20px;
-  background-color: orange;
+  background-color: #c78c06;
   border: none;
   padding: 20px 30px;
   color: black;
@@ -163,7 +163,7 @@ h1 {
   width: 400px;
   height: 350px;
   top: 658px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .about4 {
@@ -200,7 +200,7 @@ h1 {
   width: 400px;
   height: 400px;
   top: 1065px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4digital {
@@ -260,7 +260,7 @@ h1 {
   width: 400px;
   height: 400px;
   top: 1485px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4marketing {
@@ -320,7 +320,7 @@ h1 {
   width: 400px;
   height: 400px;
   top: 1905px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4video {
@@ -379,7 +379,7 @@ h1 {
   width: 400px;
   height: 400px;
   top: 2325px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4development {
@@ -439,7 +439,7 @@ h1 {
   width: 400px;
   height: 400px;
   top: 2745px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4print{
@@ -529,7 +529,7 @@ h1 {
   top: 130px;
   left: 10px;
   background-color: black;
-  border: 1px solid orange;
+  border: 1px solid #c78c06;
   padding: 15px 25px;
   opacity: 70%;
   color: white;
@@ -591,7 +591,7 @@ h1 {
   font-weight: bold;
   margin: 10px;
   padding-top: 10px;
-  border-top: 2px solid orange;
+  border-top: 2px solid #c78c06;
 }
 
 .johndoe {
@@ -599,7 +599,7 @@ h1 {
   width: 400px;
   height: 405px;
   top: 3450px;
-  background-color: wheat;
+  background-color: #ffe6ac;
   z-index: 1;
 }
 
@@ -641,7 +641,7 @@ h1 {
   font-weight: bold;
   margin: 10px;
   padding-top: 10px;
-  border-top: 2px solid orange;
+  border-top: 2px solid #c78c06;
 }
 
 .bobrite {
@@ -649,7 +649,7 @@ h1 {
   width: 400px;
   height: 405px;
   top: 3880px;
-  background-color: wheat;
+  background-color: #ffe6ac;
   z-index: 1;
 }
 
@@ -759,7 +759,7 @@ input[type="submit"] {
   background-color: black;
   border: none;
   padding: 5px 5px;
-  color: orange;
+  color: #c78c06;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
@@ -770,8 +770,11 @@ input[type="submit"] {
 
 /* Header for Hours of operation */
 .h4operation {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
   position: absolute;
-  top: 4615px;
+  top: 4625px;
 }
 
 /* hours of operation table */
@@ -794,7 +797,7 @@ th, td {
 }
 
 th {
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 /* Google Maps Header */
@@ -810,6 +813,36 @@ iframe {
   width: 400px;
 }
 
+.footer {
+  position: relative;
+  width: 400px;
+  height: 100px;
+  background-color: #222;
+  top: 4650px;
+  left: 0px;
+}
+
+.copyright {
+  position: absolute;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #c78c06;
+  top: 20px;
+  left: 75px;
+}
+
+.copyright2 {
+  position: absolute;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #c78c06;
+  top: 45px;
+  left: 77px;
+}
+
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -817,7 +850,7 @@ iframe {
 /* Navigation Bar */
 .menu {
   position: absolute;
-  background-color: black;
+  background-color: #222;
   top: 0px;
   width: 1400px;
   height: 140px;
@@ -829,7 +862,7 @@ iframe {
   position: absolute;
   width: 25px;
   height: 25px;
-  border: 1px solid orange;
+  border: 1px solid #c78c06;
   left: 1190px;
   top: 60px;
 }
@@ -869,7 +902,7 @@ iframe {
 /* Navigation Links */
 .orangeb {
   position: relative;
-  background-color: orange;
+  background-color: #c78c06;
   left: 530px;
   top: 40px;
   width: 110px;
@@ -891,7 +924,7 @@ iframe {
   position: absolute;
   text-decoration: none;
   font-size: 20px;
-  color: orange;
+  color: #c78c06;
   left: 450px;
   top: 62px;
 }
@@ -900,7 +933,7 @@ iframe {
   position: absolute;
   text-decoration: none;
   font-size: 20px;
-  color: orange;
+  color: #c78c06;
   left: 583px;
   top: 62px;
 }
@@ -909,7 +942,7 @@ iframe {
   position: absolute;
   text-decoration: none;
   font-size: 20px;
-  color: orange;
+  color: #c78c06;
   left: 716px;
   top: 62px;
 }
@@ -918,7 +951,7 @@ iframe {
   position: absolute;
   text-decoration: none;
   font-size: 20px;
-  color: orange;
+  color: #c78c06;
   left: 839px;
   top: 62px;
 }
@@ -961,7 +994,7 @@ h1 {
   position: absolute;
   top: 560px;
   left: 530px;
-  background-color: orange;
+  background-color: #c78c06;
   border: none;
   padding: 30px 50px;
   color: black;
@@ -986,7 +1019,7 @@ h1 {
   width: 1400px;
   height: 350px;
   top: 850px;
-  background-color: wheat;
+  background-color: #ffe6ac;
   left: 252px;
 }
 
@@ -1035,7 +1068,7 @@ h1 {
   height: 450px;
   top: 1300px;
   left: 500px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4digital {
@@ -1097,7 +1130,7 @@ h1 {
   height: 450px;
   top: 1300px;
   left: 1000px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4marketing {
@@ -1159,7 +1192,7 @@ h1 {
   height: 400px;
   top: 1770px;
   left: 500px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4video {
@@ -1223,7 +1256,7 @@ h1 {
   height: 400px;
   top: 1770px;
   left: 822px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4development {
@@ -1284,7 +1317,7 @@ h1 {
   height: 400px;
   top: 1770px;
   left: 1144px;
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 .h4print{
@@ -1379,7 +1412,7 @@ h1 {
   top: 120px;
   right: 1070px;
   background-color: black;
-  border: 1px solid orange;
+  border: 1px solid #c78c06;
   padding: 25px 30px;
   opacity: 70%;
   color: white;
@@ -1448,7 +1481,7 @@ h1 {
   font-weight: bold;
   margin: 10px;
   padding-top: 10px;
-  border-top: 2px solid orange;
+  border-top: 2px solid #c78c06;
 }
 
 .johndoe {
@@ -1457,7 +1490,7 @@ h1 {
   height: 305px;
   top: 2480px;
   left: 500px;
-  background-color: wheat;
+  background-color: #ffe6ac;
   z-index: 1;
 }
 
@@ -1503,7 +1536,7 @@ h1 {
   font-weight: bold;
   margin: 10px;
   padding-top: 10px;
-  border-top: 2px solid orange;
+  border-top: 2px solid #c78c06;
 }
 
 .bobrite {
@@ -1512,7 +1545,7 @@ h1 {
   height: 331px;
   top: 2785px;
   left: 500px;
-  background-color: wheat;
+  background-color: #ffe6ac;
   z-index: 1;
 }
 
@@ -1618,7 +1651,7 @@ input[type="submit"] {
   background-color: black;
   border: none;
   padding: 5px 5px;
-  color: orange;
+  color: #c78c06;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
@@ -1658,7 +1691,7 @@ th, td {
 }
 
 th {
-  background-color: wheat;
+  background-color: #ffe6ac;
 }
 
 /* Google Maps Header */
@@ -1682,7 +1715,7 @@ iframe {
   position: relative;
   width: 955px;
   height: 100px;
-  background-color: black;
+  background-color: #222;
   top: 3000px;
   left: 490px;
 }
@@ -1692,7 +1725,7 @@ iframe {
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: #C68D00;
+  color: #c78c06;
   top: 20px;
   left: 350px;
 }
@@ -1702,7 +1735,7 @@ iframe {
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  color: #C68D00;
+  color: #c78c06;
   top: 45px;
   left: 350px;
 }
