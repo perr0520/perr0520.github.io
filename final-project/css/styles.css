@@ -139,17 +139,6 @@ h1 {
   margin: 10px;
 }
 
-.triangle1 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 10px solid transparent;
-	border-left: 15px solid black;
-	border-bottom: 10px solid transparent;
-  left: 180px;
-  top: 559px;
-}
-
 /* ^^^ Welcome to Three Stars Media ^^^ */
 
 /* about us section */
@@ -235,17 +224,6 @@ h1 {
   font-weight: bold;
 }
 
-.triangle2 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 125px;
-  top: 365px;
-}
-
 /* ^^^ Digital Transformation ^^^ */
 
 /* Marketing section */
@@ -293,17 +271,6 @@ h1 {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-.triangle3 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 150px;
-  top: 365px;
 }
 
 /* ^^^Marketing Section^^^ */
@@ -355,17 +322,6 @@ h1 {
   font-weight: bold;
 }
 
-.triangle4 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 120px;
-  top: 365px;
-}
-
 /* ^^^Video Production^^^ */
 /* Web Devolpment */
 #web {
@@ -412,17 +368,6 @@ h1 {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-.triangle5 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 112px;
-  top: 365px;
 }
 
 /* ^^^Web Development^^^ */
@@ -472,17 +417,6 @@ h1 {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-.triangle6 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 115px;
-  top: 365px;
 }
 
 /* ^^^Print^^^ */
@@ -538,18 +472,6 @@ h1 {
   font-size: 16px;
   font-weight: bold;
   z-index: 4
-}
-
-.triangle7 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 7px solid transparent;
-	border-left: 13px solid white;
-	border-bottom: 7px solid transparent;
-  left: 128px;
-  top: 148px;
-  z-index: 5;
 }
 
 /* ^^^Our Vision^^^ */
@@ -1095,7 +1017,7 @@ h1 {
   position: absolute;
   background-color: black;
   top: 397px;
-  left: 35px;
+  left: 25px;
   border: none;
   padding: 15px 145px;
   color: white;
@@ -1105,16 +1027,6 @@ h1 {
   font-weight: bold;
 }
 
-.triangle2 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 285px;
-  top: 415px;
-}
 /*^^^ Digital transformation ^^^*/
 
 /* Marketing section */
@@ -1156,7 +1068,7 @@ h1 {
   position: absolute;
   background-color: black;
   top: 397px;
-  left: 20px;
+  right: 8px;
   border: none;
   padding: 15px 145px;
   color: white;
@@ -1164,17 +1076,6 @@ h1 {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-}
-
-.triangle3 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 295px;
-  top: 415px;
 }
 
 /* ^^^Marketing Section^^^ */
@@ -1217,27 +1118,16 @@ h1 {
 
 .button4 {
   position: absolute;
-  top: 353px;
-  left: 10px;
+  top: 345px;
+  left: 30px;
   background-color: black;
   border: none;
-  padding: 10px 105px;
+  padding: 15px 70px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-.triangle4 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 120px;
-  top: 365px;
 }
 
 /* ^^^Video Production^^^ */
@@ -1279,27 +1169,16 @@ h1 {
 
 .button5 {
   position: absolute;
-  top: 353px;
-  left: 10px;
+  top: 345px;
+  left: 30px;
   background-color: black;
   border: none;
-  padding: 10px 105px;
+  padding: 15px 80px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-.triangle5 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 112px;
-  top: 365px;
 }
 
 /* ^^^Web Development^^^ */
@@ -1340,27 +1219,16 @@ h1 {
 
 .button6 {
   position: absolute;
-  top: 353px;
-  left: 10px;
+  top: 345px;
+  left: 30px;
   background-color: black;
   border: none;
-  padding: 10px 105px;
+  padding: 15px 80px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-}
-
-.triangle6 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 6px solid transparent;
-	border-left: 12px solid white;
-	border-bottom: 6px solid transparent;
-  left: 115px;
-  top: 365px;
 }
 
 /* ^^^Print^^^ */
@@ -1422,18 +1290,6 @@ h1 {
   font-weight: bold;
   z-index: 4;
   white-space: nowrap;
-}
-
-.triangle7 {
-  position: absolute;
-	width: 0;
-	height: 0;
-	border-top: 7px solid transparent;
-	border-left: 13px solid white;
-	border-bottom: 7px solid transparent;
-  left: 128px;
-  top: 148px;
-  z-index: 5;
 }
 
 /* ^^^Our Vision^^^ */
