@@ -1130,31 +1130,36 @@ h1 {
 /* Video Production */
 #video {
   position: absolute;
-  width: 400px;
+  width: 307px;
   top: 0px;
 }
 
 .video {
   position: absolute;
-  width: 400px;
+  width: 307px;
   height: 400px;
-  top: 1905px;
+  top: 1770px;
+  left: 500px;
   background-color: wheat;
 }
 
 .h4video {
   position: absolute;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  bottom: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  bottom: 130px;
+  Left: 45px;
 }
 
 .p4 {
   position: relative;
-  top: 295px;
+  top: 245px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
+  text-align: left;
+  left: 10px;
   margin: 10px;
 }
 
@@ -1164,7 +1169,7 @@ h1 {
   left: 10px;
   background-color: black;
   border: none;
-  padding: 10px 25px;
+  padding: 10px 105px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -1188,31 +1193,35 @@ h1 {
 /* Web Devolpment */
 #web {
   position: absolute;
-  width: 400px;
+  width: 307px;
+  height: 205px;
   top: 0px;
 }
 
 .development {
   position: absolute;
-  width: 400px;
+  width: 307px;
   height: 400px;
-  top: 2325px;
+  top: 1770px;
+  left: 822px;
   background-color: wheat;
 }
 
 .h4development {
   position: absolute;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  bottom: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  bottom: 130px;
+  left: 45px;
 }
 
 .p5 {
   position: relative;
-  top: 295px;
+  top: 245px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   margin: 10px;
 }
 
@@ -1222,7 +1231,7 @@ h1 {
   left: 10px;
   background-color: black;
   border: none;
-  padding: 10px 25px;
+  padding: 10px 105px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -1246,31 +1255,34 @@ h1 {
 /* Print */
 #print {
   position: absolute;
-  width: 400px;
+  width: 307px;
   top: 0px;
 }
 
 .print {
   position: absolute;
-  width: 400px;
+  width: 307px;
   height: 400px;
-  top: 2745px;
+  top: 1770px;
+  left: 1144px;
   background-color: wheat;
 }
 
 .h4print{
   position: absolute;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  bottom: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  bottom: 130px;
+  left: 120px;
 }
 
 .p6 {
   position: relative;
-  top: 295px;
+  top: 245px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   margin: 10px;
 }
 
@@ -1280,7 +1292,7 @@ h1 {
   left: 10px;
   background-color: black;
   border: none;
-  padding: 10px 25px;
+  padding: 10px 105px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -1303,32 +1315,39 @@ h1 {
 
 /* Our Vision */
 #vision {
-  width: 400px;
+  width: 955px;
   height: 200px;
   position: relative;
-  top: 0px;
-  z-index: 1;
+  bottom: 1px;
+  right: 290px;
+  z-index: -5;
+  object-fit: cover;
 }
 
 .vision {
   position: absolute;
   width: 400px;
   height: 400px;
-  top: 3150px;
+  top: 2200px;
+  left: 790px;
 }
 
 .h4vision {
   position: absolute;
-  top: 25px;
+  bottom: 315px;
+  right: 470px;
   color: white;
-  font-size: 16px;
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 2;
+  white-space: nowrap;
 }
 
 .p7 {
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 11px;
+  font-size: 14px;
+  line-height: 17px;
   word-spacing: 2px;
   top: 70px;
   color: white;
