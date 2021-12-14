@@ -1,7 +1,7 @@
-@media screen and (min-width: 400px) and (max-width: 1000px) {
-  #main-banner {
+#main-banner {
     position: relative;
     width: 400px;
+    top: 0px;
   }
 
   .navb {
@@ -132,7 +132,7 @@ h1 {
   position: absolute;
   top: 460px;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   right: 10px;
   text-align: left;
@@ -159,14 +159,14 @@ h1 {
   position: relative;
   left: 10px;
   bottom: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 26px;
 }
 
 .p1 {
   position: relative;
   bottom: 70px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 10px;
   font-weight: bold;
   margin: 10px;
@@ -175,7 +175,7 @@ h1 {
 .h3service {
   position: absolute;
   top: 1000px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 26px;
 }
 /* Digital Transformation */
@@ -195,7 +195,7 @@ h1 {
 .h4digital {
   position: absolute;
   left: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
   top: 250px;
@@ -205,7 +205,7 @@ h1 {
   position: relative;
   top: 28px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   margin: 10px;
 }
@@ -244,7 +244,7 @@ h1 {
 .h4marketing {
   position: absolute;
   left: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
   top: 250px;
@@ -254,7 +254,7 @@ h1 {
   position: relative;
   top: 295px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   margin: 10px;
 }
@@ -293,7 +293,7 @@ h1 {
 .h4video {
   position: absolute;
   left: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
   bottom: 70px;
@@ -303,7 +303,7 @@ h1 {
   position: relative;
   top: 295px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   margin: 10px;
 }
@@ -341,7 +341,7 @@ h1 {
 .h4development {
   position: absolute;
   left: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
   bottom: 70px;
@@ -351,7 +351,7 @@ h1 {
   position: relative;
   top: 295px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   margin: 10px;
 }
@@ -390,7 +390,7 @@ h1 {
 .h4print{
   position: absolute;
   left: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 20px;
   font-weight: bold;
   bottom: 70px;
@@ -400,7 +400,7 @@ h1 {
   position: relative;
   top: 295px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   margin: 10px;
 }
@@ -441,15 +441,15 @@ h1 {
   top: 25px;
   left: 10px;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   z-index: 2;
 }
 
 .p7 {
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 11px;
   word-spacing: 2px;
   top: 70px;
@@ -481,13 +481,13 @@ h1 {
   position: absolute;
   top: 3370px;
   font-size: 29px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 /* John Doe */
 .h4john{
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 24px;
   left: 15px;
   top: 245px;
@@ -500,7 +500,7 @@ h1 {
   left: 14px;
   z-index: 4;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
 }
 
@@ -508,7 +508,7 @@ h1 {
   position: absolute;
   top: 320px;
   z-index: 3;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
   font-weight: bold;
   margin: 10px;
@@ -537,7 +537,7 @@ h1 {
 /* Bob Rite */
 .h4bob {
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 24px;
   left: 15px;
   top: 245px;
@@ -550,7 +550,7 @@ h1 {
   left: 14px;
   z-index: 4;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
 }
 
@@ -558,7 +558,7 @@ h1 {
   position: absolute;
   top: 320px;
   z-index: 3;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 12px;
   font-weight: bold;
   margin: 10px;
@@ -596,7 +596,7 @@ h1 {
 .h4message {
   position: absolute;
   top: 4350px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 16px;
   left: 10px;
 }
@@ -605,7 +605,7 @@ h1 {
 .h3contact {
   position: absolute;
   top: 4300px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 30px;
   left: 10px;
 }
@@ -621,7 +621,7 @@ h1 {
 /* Message, Email, Name table */
 .name {
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
   border-style: none;
@@ -649,7 +649,7 @@ h1 {
 
 .email {
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
   border-style: none;
@@ -661,7 +661,7 @@ h1 {
 
 .message {
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   margin-bottom: 0px;
   border-style: none;
@@ -692,7 +692,7 @@ input[type="submit"] {
 
 /* Header for Hours of operation */
 .h4operation {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   font-size: 24px;
   position: absolute;
@@ -725,7 +725,7 @@ th {
 /* Google Maps Header */
 .h4location {
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   font-size: 24px;
   top: 4825px;
@@ -750,7 +750,7 @@ iframe {
 .copyright {
   position: absolute;
   font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   color: #c78c06;
   top: 20px;
@@ -760,19 +760,21 @@ iframe {
 .copyright2 {
   position: absolute;
   font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   color: #c78c06;
   top: 45px;
   left: 77px;
 }
 
-
-}
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
 
 /* Navigation Bar */
+
+.navb {
+  display: none;
+}
+
 .menu {
   position: absolute;
   background-color: #222;
@@ -813,6 +815,7 @@ iframe {
   margin-right: auto;
   width: 1400px;
   height: 1000px;
+  bottom: 450px;
 }
 
 #logo {
@@ -828,8 +831,8 @@ iframe {
 .orangeb {
   position: relative;
   background-color: #c78c06;
-  left: 530px;
-  top: 40px;
+  left: 523px;
+  top: 37px;
   width: 110px;
   height: 50px;
   z-index: 1;
@@ -907,7 +910,7 @@ h1 {
   position: absolute;
   top: 460px;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 16px;
   left: 505px;
   text-align: left;
@@ -952,7 +955,7 @@ h1 {
   position: relative;
   left: 700px;
   bottom: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 36px;
 }
 
@@ -960,7 +963,7 @@ h1 {
   position: absolute;
   left: 690px;
   bottom: 45px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: bold;
   margin: 10px;
@@ -975,7 +978,7 @@ h1 {
   position: absolute;
   top: 1200px;
   left: 500px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 36px;
 }
 
@@ -1000,7 +1003,7 @@ h1 {
   position: absolute;
   font-size: 23px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   top: 270px;
   left: 80px;
 }
@@ -1009,7 +1012,7 @@ h1 {
   position: relative;
   top: 28px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 13px;
   text-align: left;
   left: 10px;
@@ -1050,7 +1053,7 @@ h1 {
 
 .h4marketing {
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 23px;
   font-weight: bold;
   top: 275px;
@@ -1061,7 +1064,7 @@ h1 {
   position: relative;
   top: 330px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 13px;
   left: 2px;
   margin: 10px;
@@ -1079,6 +1082,7 @@ h1 {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 /* ^^^Marketing Section^^^ */
@@ -1103,7 +1107,7 @@ h1 {
   position: absolute;
   font-size: 22px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   bottom: 130px;
   Left: 45px;
 }
@@ -1112,7 +1116,7 @@ h1 {
   position: relative;
   top: 245px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 13px;
   text-align: left;
   left: 10px;
@@ -1156,7 +1160,7 @@ h1 {
   position: absolute;
   font-size: 22px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   bottom: 130px;
   left: 45px;
 }
@@ -1165,7 +1169,7 @@ h1 {
   position: relative;
   top: 245px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 13px;
   margin: 10px;
 }
@@ -1206,7 +1210,7 @@ h1 {
   position: absolute;
   font-size: 22px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   bottom: 130px;
   left: 120px;
 }
@@ -1215,7 +1219,7 @@ h1 {
   position: relative;
   top: 245px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 13px;
   margin: 10px;
 }
@@ -1232,6 +1236,7 @@ h1 {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 /* ^^^Print^^^ */
@@ -1257,22 +1262,22 @@ h1 {
 
 .h4vision {
   position: absolute;
-  bottom: 110px;
-  right: 1075px;
+  bottom: 105px;
+  right: 1100px;
   color: white;
   font-size: 26px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   z-index: 2;
   white-space: nowrap;
 }
 
 .p7 {
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   width: 955px;
   font-size: 14px;
   line-height: 15px;
-  top: 55px;
+  top: 65px;
   right: 270px;
   color: white;
   z-index: 3;
@@ -1303,7 +1308,7 @@ h1 {
   top: 2400px;
   left: 510px;
   font-size: 34px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 /* John Doe */
@@ -1311,7 +1316,7 @@ h1 {
   position: absolute;
   top: 00px;
   left: 480px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   font-size: 24px;
   z-index: 5;
@@ -1324,7 +1329,7 @@ h1 {
   z-index: 4;
   width: 400px;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 16px;
 }
 
@@ -1334,7 +1339,7 @@ h1 {
   width: 400px;
   left: 470px;
   z-index: 3;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 14px;
   line-height: 22px;
   font-weight: bold;
@@ -1367,7 +1372,7 @@ h1 {
   position: absolute;
   top: 0px;
   left: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   font-size: 24px;
   z-index: 5;
@@ -1379,7 +1384,7 @@ h1 {
   left: 20px;
   z-index: 4;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 16px;
 }
 
@@ -1389,7 +1394,7 @@ h1 {
   left: 10px;
   width: 400px;
   z-index: 3;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 14px;
   line-height: 22px;
   font-weight: bold;
@@ -1423,7 +1428,7 @@ h1 {
   position: absolute;
   top: 3150px;
   left: 500px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 32px;
 }
 
@@ -1433,7 +1438,7 @@ h1 {
   position: absolute;
   top: 3250px;
   left: 500px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
@@ -1450,7 +1455,7 @@ h1 {
 /* Message, Email, Name table */
 .name {
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
   border-style: none;
@@ -1478,7 +1483,7 @@ h1 {
 
 .email {
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
   border-style: none;
@@ -1490,7 +1495,7 @@ h1 {
 
 .message {
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   margin-bottom: 0px;
   border-style: none;
@@ -1525,7 +1530,7 @@ input[type="submit"] {
   top: 3800px;
   left: 500px;
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 /* hours of operation table */
@@ -1558,7 +1563,7 @@ th {
   position: absolute;
   top: 3250px;
   left: 950px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 24px;
 }
 
@@ -1582,7 +1587,7 @@ iframe {
 .copyright {
   position: absolute;
   font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   color: #c78c06;
   top: 20px;
@@ -1592,7 +1597,7 @@ iframe {
 .copyright2 {
   position: absolute;
   font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Open Sans, sans-serif;
   font-weight: bold;
   color: #c78c06;
   top: 45px;
